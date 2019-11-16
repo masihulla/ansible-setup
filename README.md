@@ -1,7 +1,6 @@
 #! /bin/bash
 yum update -y
 amazon-linux-extras install ansible2
-ansible --version
 echo "please enter user name"
 read id
 adduser $id
